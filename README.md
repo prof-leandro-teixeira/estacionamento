@@ -6,10 +6,14 @@ Projeto para simular o funcionamento de um estacionamento.
 2. Liberar vaga na saída do carro do estacionamento.
 3. Listar vagas do estacionamento com a respectiva situação.
 
-![Tela 1](img/Tela_principal.png)
-![Tela 2](img/Entrada_de_veiculo.png)
-![Tela 3](img/Listar_vagas.png)
-![Tela 4](img/Saindo.png)
+### Tela principal
+![Tela 1](src/img/Tela_principal.png)
+### Tela de entrada de veículo
+![Tela 2](src/img/Entrada_de_veiculo.png)
+### Tela de lista de vagas
+![Tela 3](src/img/Listar_vagas.png)
+### Tela de saída do sistema
+![Tela 4](src/img/Saindo.png)
 
 ##Resisitos não funcionais
 Com o desenvolvimento da aplicação serão listados
