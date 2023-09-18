@@ -1,5 +1,5 @@
 # Projeto Estacionamento
-Projeto para simular o funcionamento de um estacionamento.
+Projeto para simular o funcionamento de um estacionamento. O código foi escrito de forma monolítica e procedural de propósito, com o objetivo de demonstrar conhecimentos em estruturas de dados simples e fins didáticos, e pode não representar uma abordagem ideal em contextos mais complexos ou em projetos de grande escala.
 #
 
 ## Requisitos Funcionais
