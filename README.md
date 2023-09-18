@@ -37,3 +37,31 @@ O projeto é composto por:
 - [GitHub](https://github.com/): Plataforma de hospedagem de código-fonte.
 
 #
+
+## Melhorias
+
+Durante o desenvolvimento da aplicação, percebi a oportunidade de implementar uma função adicional no código que seria relevante para o usuário. Ao considerar essa adição, identifiquei mais implicações positivas do que negativas:
+
+* Melhoria na Funcionalidade: A inclusão da nova função proporcionará maior utilidade para os usuários.
+* Resolução de Problemas: Essa função contribuiu para a lógica do projeto, simplificando o processo de codificação de funcionalidades mais complexas.
+* Inovação: A criatividade na adição dessa função não planejada nos requisitos funcionais pode resultar em inovações surpreendentes e em recursos exclusivos que podem ser valiosos para os usuários. Além disso, essa inovação pode gerar insights para o levantamento de requisitos funcionais adicionais, levando ao desenvolvimento de uma nova versão com melhorias significativas.
+
+Parte do código que não estava previsto nos requisitos funcionais:
+```
+private static void buscarVeiculo(String[] vagas) {
+String placa = JOptionPane.showInputDialog(null, "Entre com a placa a ser buscada: ", "Sistema de Estacionamento - " + VERSAO, JOptionPane.PLAIN_MESSAGE);
+  
+	boolean veiculoEncontrado = false;
+
+	for (int i = 0; i < vagas.length; i++) {
+	    if (vagas[i].equals(placa)) {
+		    JOptionPane.showMessageDialog(null, "Veículo encontrado na vaga " + i + ".", "Sistema de Estacionamento - " + VERSAO, JOptionPane.PLAIN_MESSAGE);
+		    veiculoEncontrado = true;
+		    break;
+	    }
+	}
+	if (!veiculoEncontrado) {
+	    JOptionPane.showMessageDialog(null, "Veículo não encontrado no estacionamento.", "Sistema de Estacionamento - " + VERSAO, JOptionPane.PLAIN_MESSAGE);
+	}
+}
+```
