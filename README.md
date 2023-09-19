@@ -35,7 +35,6 @@ O projeto é composto por:
 - [Eclipse](https://www.eclipse.org/): Ambiente de desenvolvimento integrado (IDE) utilizado para escrever e compilar o código.
 - [Git](https://git-scm.com/): Sistema de controle de versão para gerenciar o código-fonte.
 - [GitHub](https://github.com/): Plataforma de hospedagem de código-fonte.
-
 #
 
 ## Melhorias
